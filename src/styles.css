@@ -599,6 +599,7 @@ textarea { min-height: 120px; resize: vertical; }
 .footer-brand button svg { width: 14px; }
 .footer-bottom { min-height: 65px; border-top: 1px solid rgba(255,255,255,.1); display: flex; align-items: center; justify-content: space-between; font-size: 9px; }
 .footer-bottom > div { display: flex; gap: 22px; }
+.footer-credit b { color: var(--white); font-size: inherit; font-weight: 700; }
 
 @media (max-width: 1080px) {
   .desktop-nav { gap: 0; }
@@ -758,6 +759,7 @@ textarea { min-height: 120px; resize: vertical; }
   .footer-brand { grid-column: 1/-1; grid-row: auto; }
   .footer-bottom { padding: 22px 0; align-items: flex-start; flex-direction: column; gap: 15px; }
   .footer-bottom > div { flex-wrap: wrap; gap: 10px 18px; }
+  .footer-meta { flex-direction: column; }
 }
 
 @media (max-width: 380px) {
